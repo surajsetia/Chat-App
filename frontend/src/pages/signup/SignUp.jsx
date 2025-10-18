@@ -37,6 +37,7 @@ const SignUp = () => {
             </label>
             <input
               type="text"
+              placeholder="Enter Full Name"
               className="w-full input input-bordered  h-10"
               value={inputs.fullName}
               onChange={(e) =>
@@ -51,6 +52,7 @@ const SignUp = () => {
             </label>
             <input
               type="text"
+              placeholder="Enter Username"
               className="w-full input input-bordered h-10"
               value={inputs.username}
               onChange={(e) =>
@@ -65,6 +67,7 @@ const SignUp = () => {
             </label>
             <input
               type="password"
+              placeholder="Enter Password"
               className="w-full input input-bordered h-10"
               value={inputs.password}
               onChange={(e) =>
@@ -79,6 +82,7 @@ const SignUp = () => {
             </label>
             <input
               type="password"
+              placeholder="Confirm Password"
               className="w-full input input-bordered h-10"
               value={inputs.confirmPassword}
               onChange={(e) =>
